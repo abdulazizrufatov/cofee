@@ -30,7 +30,8 @@ text-decoration: none;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 43px 0;
+    padding-top: 43px;
+    padding-bottom: 43px;
 }
 .header-right{
     display: flex;
@@ -275,4 +276,142 @@ color: #333D4B;
 }
 .icon{
     margin-left: 24px;
+}
+/*about page */
+.aboutpage-hero-container{
+    background-image: url(/images/aboutheroimg.png);
+    background-repeat: no-repeat;
+    padding: 137px 85px;
+    margin-bottom: 168px;
+}
+.commitment-container{
+    margin-bottom: 256px;
+    display: flex;
+    align-items: center;
+    padding: 0 125px;
+}
+.commitment-right{
+    margin-left: 125px;
+}
+.commitment-heading{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 32px;
+    font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+/* identical to box height, or 120% */
+
+
+color: #333D4B;
+
+}
+.commitment-desc{
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+
+color: #333D4B;
+
+mix-blend-mode: normal;
+opacity: 0.8;
+width: 540px;
+}
+.aboutpage-center-container{
+    display: flex;
+    align-items: center;
+    padding: 88px 85px 88px 85px;
+    background: #2C343E;
+    border-radius: 2px;
+    justify-content: space-between;
+    height: 424px;
+}
+.aboutpage-center-left{
+    width: 540px;
+}
+.aboutpage-center-headinf{
+    font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 48px;
+/* identical to box height, or 120% */
+
+
+color: #FEFCF7;
+
+}
+.aboutpage-center-desc{
+    font-family: 'Barlow';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+
+color: #FEFCF7;
+
+mix-blend-mode: normal;
+opacity: 0.8;
+width: 540px;
+}
+.copuchino{
+    margin-bottom: 88px;
+}
+.aboutpage-main-bottom{
+    padding: 168px 0;
+}
+.main-bottom-heading{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 72px;
+    margin-left: 125px;
+    font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 32px;
+/* identical to box height, or 133% */
+
+
+color: #83888F;
+}
+.maps{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.aboutpage-main-bottom-title{
+    margin: 0;
+    padding: 0;
+    margin-top: 46px;
+    margin-bottom: 24px;
+    font-family: 'Fraunces 9pt';
+font-style: normal;
+font-weight: bold;
+font-size: 32px;
+line-height: 36px;
+/* identical to box height, or 112% */
+
+
+color: #333D4B;
+}
+.adress{
+    font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+
+color: #333D4B;
+
 }
