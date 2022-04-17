@@ -944,6 +944,30 @@ input:disabled + .box {
   background: #FDD6BA;
 }
 
+.site-btn {
+  font-family: 'Fraunces 9pt',serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  border: none;
+  border-radius: 8px;
+}
+
+.main-bottom-desc {
+  font-family: 'Fraunces 9pt',serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 40px;
+  color: #fff;
+}
+
+.main-span {
+  color: #0e8784;
+}
+
 .footer-container {
   margin-top: 100px;
   padding: 48px 85px;
